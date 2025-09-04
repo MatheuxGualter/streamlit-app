@@ -24,3 +24,5 @@ with st.sidebar:
                             min_value=1, max_value=len(dados),
                             value=default_top_n)
     st.session_state['top_n'] = top_n
+
+# main code
